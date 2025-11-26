@@ -1,32 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   const socials = [
     {
-      name: "Email",
-      icon: Mail,
-      href: "mailto:chindan@example.com",
-      label: "chindan@example.com"
-    },
-    {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com",
-      label: "github.com/chindan"
+      href: "https://github.com/Chinu-a45",
+      label: "github.com/Chinu-a45"
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com",
-      label: "linkedin.com/in/chindan"
-    },
-    {
-      name: "Twitter",
-      icon: Twitter,
-      href: "https://twitter.com",
-      label: "@chindan"
+      href: "https://www.linkedin.com/in/chindan-kushwaha-75a77b276/",
+      label: "linkedin.com/in/chindan-kushwaha"
     }
   ];
 

@@ -28,17 +28,26 @@ const YouTubeSection = () => {
             </CardHeader>
             
             <CardContent className="p-6">
-              <div className="aspect-video bg-muted rounded-lg mb-6 flex items-center justify-center relative overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
-                <div className="relative z-10 text-center space-y-4">
-                  <div className="w-20 h-20 rounded-full bg-primary/20 backdrop-blur-sm flex items-center justify-center mx-auto group-hover:scale-110 transition-transform">
-                    <Play className="w-10 h-10 text-primary" />
+              <a
+                href="https://youtube.com/playlist?list=PLIAqZFREtnAVsuOG8wUkZTrGVVgkjgbTQ&si=OXuntfcqFDL_R37a"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <div className="aspect-video bg-muted rounded-lg mb-6 relative overflow-hidden group cursor-pointer">
+                  <img 
+                    src="https://i.ytimg.com/vi/7AHf9uTGmic/hqdefault.jpg"
+                    alt="Data Mining Solutions Playlist Thumbnail"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/40 to-background/60 group-hover:from-primary/50 group-hover:to-background/70 transition-all" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-20 h-20 rounded-full bg-primary/90 backdrop-blur-sm flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <Play className="w-10 h-10 text-primary-foreground" fill="currentColor" />
+                    </div>
                   </div>
-                  <p className="text-muted-foreground font-medium">
-                    Click below to view the full playlist
-                  </p>
                 </div>
-              </div>
+              </a>
 
               <div className="space-y-4">
                 <div className="flex flex-wrap gap-2">
