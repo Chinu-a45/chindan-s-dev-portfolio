@@ -29,7 +29,8 @@ const Hero = () => {
           
           <div className="flex flex-wrap gap-4 justify-center pt-4">
             <Button size="lg" className="gap-2" asChild>
-              <a href="mailto:chindankushwaha72@gmail.com">
+              <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=chindankushwaha72@gmail.com"
+              target="_blank">
                 <Mail className="w-4 h-4" />
                 Contact Me
               </a>

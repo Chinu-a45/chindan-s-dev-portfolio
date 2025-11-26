@@ -36,7 +36,7 @@ const YouTubeSection = () => {
               >
                 <div className="aspect-video bg-muted rounded-lg mb-6 relative overflow-hidden group cursor-pointer">
                   <img 
-                    src="https://i.ytimg.com/vi/7AHf9uTGmic/hqdefault.jpg"
+                    src="https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Data Mining Solutions Playlist Thumbnail"
                     className="w-full h-full object-cover"
                   />
