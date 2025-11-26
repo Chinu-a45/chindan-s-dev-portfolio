@@ -28,17 +28,23 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center pt-4">
-            <Button size="lg" className="gap-2">
-              <Mail className="w-4 h-4" />
-              Contact Me
+            <Button size="lg" className="gap-2" asChild>
+              <a href="mailto:chindankushwaha72@gmail.com">
+                <Mail className="w-4 h-4" />
+                Contact Me
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2">
-              <Github className="w-4 h-4" />
-              GitHub
+            <Button size="lg" variant="outline" className="gap-2" asChild>
+              <a href="https://github.com/Chinu-a45" target="_blank" rel="noopener noreferrer">
+                <Github className="w-4 h-4" />
+                GitHub
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2">
-              <Linkedin className="w-4 h-4" />
-              LinkedIn
+            <Button size="lg" variant="outline" className="gap-2" asChild>
+              <a href="https://www.linkedin.com/in/chindan-kushwaha-75a77b276/" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="w-4 h-4" />
+                LinkedIn
+              </a>
             </Button>
           </div>
         </div>
