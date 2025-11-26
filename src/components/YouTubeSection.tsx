@@ -56,9 +56,19 @@ const YouTubeSection = () => {
                   </span>
                 </div>
 
-                <Button className="w-full gap-2" size="lg">
-                  <ExternalLink className="w-4 h-4" />
-                  Watch Full Playlist on YouTube
+                <Button 
+                  className="w-full gap-2" 
+                  size="lg"
+                  asChild
+                >
+                  <a 
+                    href="https://youtube.com/playlist?list=PLIAqZFREtnAVsuOG8wUkZTrGVVgkjgbTQ&si=OXuntfcqFDL_R37a"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    Watch Full Playlist on YouTube
+                  </a>
                 </Button>
               </div>
             </CardContent>
