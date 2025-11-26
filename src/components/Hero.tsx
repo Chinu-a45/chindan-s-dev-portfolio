@@ -7,12 +7,18 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-accent/20" />
       
       <div className="container relative z-10 px-4 py-20">
-        <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+        <div className="max-w-4xl mx-auto text-center space-y-8">
+          <h1 
+            className="text-5xl md:text-7xl font-bold tracking-tight animate-fade-in"
+            style={{ animationDelay: '0.2s', animationFillMode: 'backwards' }}
+          >
             Hi, I'm <span className="text-primary">Chindan Kushwaha</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground">
+          <p 
+            className="text-xl md:text-2xl text-muted-foreground animate-fade-in"
+            style={{ animationDelay: '0.5s', animationFillMode: 'backwards' }}
+          >
             Full Stack Developer | MERN Enthusiast | DSA Problem Solver
           </p>
           
